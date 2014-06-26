@@ -1,0 +1,50 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Wordweb</title>
+        <meta name="viewport" content="width=550" />
+        <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+        <link rel="stylesheet" href="./web.css">
+    </head>
+    <body>
+
+        <div id="incomingMessage"></div>
+        <div id="container">
+            <div id="instructions">
+                <h1>Wordweb game</h1>
+                <p>
+                    Click, scoll, and drag to manipulate. You may use the internet. <br><br>
+                    Good luck.
+                </p>
+
+            </div>
+            <div id="wrapper2">
+                <canvas id="wordweb"></canvas>
+            </div>
+            <br>
+            <div class="form-group" id="GuessId">
+                <div class="col-sm-12">
+                    <input type="team" class="form-control" id="deviceGuess" placeholder="Word Guess">
+                </div>
+            </div>
+            <div id="percentage">
+                30%
+            </div>
+
+            <div id="createUser">
+                <br><br>
+                <div class="col-sm-12">
+                    <input type="userCreation" class="form-control" id="userCreation" placeholder="Username (new will be created if not found)">
+                </div>
+            </div>
+
+            <br><br><br>
+
+            <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js"></script>
+            <script src="//cdnjs.cloudflare.com/ajax/libs/socket.io/0.9.6/socket.io.min.js"></script>
+            <script type="text/javascript" src="./socket.js"></script>
+            <script type="text/javascript" src="./web.js"></script>
+
+        </div>
+    </body>
+</html>

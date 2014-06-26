@@ -1,0 +1,14 @@
+{
+  "name": "Wordweb",
+  "version": "0.0.1",
+  "description": "A Fun wordweb game!",
+  "homepage": "http://www.skeenan.com",
+  "author": {
+    "name": "Sean Keenan",
+    "name": "Grace Park"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "socket.io": ">= 0.0.1"
+  }
+}

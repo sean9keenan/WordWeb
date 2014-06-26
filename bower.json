@@ -1,0 +1,25 @@
+{
+  "name": "Wordweb",
+  "main": "Wordweb",
+  "version": "0.0.1",
+  "homepage": "http://www.skeenan.com",
+  "authors": [
+    "Sean Keenan <wordweb@skeenan.org>",
+    "Grace Park <grace@skeenan.com>"
+  ],
+  "description": "A Wordweb game!",
+  "keywords": [
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "Gruntfile.js"
+  ],
+  "dependencies": {
+    "jquery": ">1.8.0"
+  }
+}
