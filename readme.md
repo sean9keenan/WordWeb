@@ -1,7 +1,7 @@
 Wordweb Game!
 ==============
 Sean Keenan <http://www.skeenan.com>  
-Grace Park (eventually) <http://www.???.com>  
+Grace Park (eventually)  
 The MIT License (MIT)  
 
 ## Check it out live
