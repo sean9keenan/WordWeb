@@ -4,8 +4,7 @@
   "version": "0.0.1",
   "homepage": "http://www.skeenan.com",
   "authors": [
-    "Sean Keenan <wordweb@skeenan.org>",
-    "Grace Park <grace@skeenan.com>"
+    "Sean Keenan <wordweb@skeenan.org>"
   ],
   "description": "A Wordweb game!",
   "keywords": [

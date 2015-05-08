@@ -1,7 +1,20 @@
+// var io      = require('socket.io').listen(8905), // for npm, otherwise use require('./path/to/socket.io')
+var web     = require('./wordweb.js');
 
+var express = require('express');
+var app = express();
+var http = require('http').Server(app);
+var io = require('socket.io').listen(http)
 
-var io      = require('socket.io').listen(8905), // for npm, otherwise use require('./path/to/socket.io')
-    web     = require('./wordweb.js');
+// app.get('/', function(req, res){
+//   res.send('<h1>Hello world</h1>');
+// });
+
+http.listen(8080, function(){
+  console.log('listening on *:8080');
+});
+
+app.use(express.static('../frontend'));
 
 try{
 

@@ -1,13 +1,14 @@
 webAddress = 'http://wordwebsocket.skeenan.com:80';
-localAddress = 'http://localhost:8005';
+localAddress = 'http://localhost:8905';
 
 triedLocalAddress = false
 
 window.setNewSocketAddress = function(address) {
   window.socketAddress = address;
-  window.socket = io.connect(window.socketAddress, {
-    // 'connect timeout': 1
-  });
+  // window.socket = io.connect(window.socketAddress, {
+  //   // 'connect timeout': 1
+  // });
+  window.socket = io.connect();
 
 
   window.socket.on('connect', function() {
@@ -71,6 +72,7 @@ window.setNewSocketAddress = function(address) {
   }
 }
 
-window.setNewSocketAddress(webAddress);
+window.setNewSocketAddress(localAddress);
+// window.setNewSocketAddress(webAddress);
 
 console.log("Nice Try\n\nYou shouldn't be here, you'll ruin some of the fun surprises if you look too deeply\nAlso none of the puzzles can be bypassed this way \n(all server side verfication, all hint links sent from server as needed, all directory trees locked)\nSo don't even bother trying.\n\n Seriously, close this.\n\n For realz.")

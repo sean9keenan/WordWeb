@@ -4,11 +4,11 @@
   "description": "A Fun wordweb game!",
   "homepage": "http://www.skeenan.com",
   "author": {
-    "name": "Sean Keenan",
-    "name": "Grace Park"
+    "name": "Sean Keenan"
   },
   "license": "MIT",
   "dependencies": {
-    "socket.io": ">= 0.0.1"
+    "express": "^4.10.2",
+    "socket.io": "== 0.9.16"
   }
 }
