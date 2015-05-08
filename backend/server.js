@@ -14,7 +14,7 @@ http.listen((process.env.PORT || 8080), function(){
   console.log('listening on *:8080');
 });
 
-app.use(express.static('../frontend'));
+app.use(express.static('frontend'));
 
 try{
 
