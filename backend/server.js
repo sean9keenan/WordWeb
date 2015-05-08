@@ -46,6 +46,12 @@ try{
     });
 
     socket.on('registerUser', function (data, callback){
+      for (var i = 0; i < allUsers.length; i++) {
+        var team = allUsers[i]
+        if (data.name == team.name){
+          return;
+        }
+      }
       newUser = {}
       newUser.name = data
       newUser.sockets = []
