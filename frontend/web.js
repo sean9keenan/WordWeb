@@ -65,6 +65,7 @@ window.socket.on('loginReturn', function(data){
 	if (data == 'Success') {
 		requestPuzzleProgress()
 		$('#createUser').fadeOut();
+		$('#GuessId').fadeIn();
 	} else {
 		failedLogin()
 	}
@@ -72,6 +73,7 @@ window.socket.on('loginReturn', function(data){
 
 function failedLogin(){
 	$('#createUser').fadeIn();
+	$('#GuessId').fadeOut();
 }
 
 $('#createUser').keypress(function (e) {

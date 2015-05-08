@@ -58,6 +58,9 @@ pre code {
     z-index: 10000;
 }
 
+#GuessId {
+    display: none;
+}
 
 #createUser {
     display: none;
