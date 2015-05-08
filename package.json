@@ -6,6 +6,9 @@
   "author": {
     "name": "Sean Keenan"
   },
+  "scripts": {
+    "start": "node backend/server.js"
+  },
   "license": "MIT",
   "dependencies": {
     "express": "^4.10.2",
