@@ -64,7 +64,7 @@ if (getCookie('user') != ""){
 window.socket.on('loginReturn', function(data){
 	if (data == 'Success') {
 		requestPuzzleProgress()
-		$('#createUser').fadeOut();
+		$('#createUser').hide();
 		$('#GuessId').fadeIn();
 	} else {
 		failedLogin()
